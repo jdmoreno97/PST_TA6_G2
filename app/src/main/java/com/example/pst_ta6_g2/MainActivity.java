@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     Cursor cursor = helper.ConsultarUsuPas(txtusu.getText().toString(), txtpas.getText().toString());
                     if(cursor.getCount()>0) {
-                        Intent i = new Intent(getApplicationContext(), Principal.class);
+                        Intent i = new Intent(getApplicationContext(), Inicio.class);
                         startActivity(i);
                     }else{
                         Toast.makeText(getApplicationContext(),"Usuario y/o contraseña incorrectos",Toast.LENGTH_LONG).show();
