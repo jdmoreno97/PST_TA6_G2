@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".fecha17">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:showDividers="beginning" android:background="#00FFFFFF"
+            android:layout_marginHorizontal="5dp">
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView34"
+            />
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:text="América de Quito   "
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView13" android:layout_weight="1"
+                    android:textSize="18sp" android:gravity="right"
+                    app:fontFamily="sans-serif-medium" android:background="#EFF1F1" android:layout_marginTop="2dp"
+                    android:textColor="#8B000000"
+            />
+            <TextView
+                    android:text="1 - 1"
+                    android:layout_width="0dp"
+                    android:layout_height="26dp" android:id="@+id/textView17" android:layout_weight="1"
+                    android:textSize="18sp" android:background="#E8EBEC" android:gravity="center"
+                    app:fontFamily="sans-serif-black" android:layout_marginTop="2dp"
+            />
+            <TextView
+                    android:text="   Olmedo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView18" android:layout_weight="1"
+                    android:textSize="18sp" android:background="#EFF1F1" android:layout_marginTop="2dp"
+            />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView35" android:background="#004D3737"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:text="Guayaquil City   "
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView14" android:layout_weight="1"
+                    android:textSize="18sp" android:gravity="right" android:background="#EFF1F1"
+                    android:layout_marginTop="2dp"/>
+            <TextView
+                    android:text="1 - 3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView19" android:layout_weight="1"
+                    android:textSize="18sp" android:background="#E8EBEC" android:gravity="center"
+                    app:fontFamily="sans-serif-black" android:layout_marginTop="2dp"/>
+            <TextView
+                    android:text="   Delfín"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView20" android:layout_weight="1"
+                    android:textSize="18sp" android:background="#EFF1F1" android:layout_marginTop="2dp"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:text="Barcelona SC   "
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView15" android:layout_weight="1"
+                    android:textSize="18sp" android:gravity="right" app:fontFamily="sans-serif-medium"
+                    android:background="#F4F5F5" android:layout_marginTop="2dp"/>
+            <TextView
+                    android:text="1 - 2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView21" android:layout_weight="1"
+                    android:textSize="18sp" android:background="#E8EBEC" android:gravity="center"
+                    app:fontFamily="sans-serif-black" android:layout_marginTop="2dp"/>
+            <TextView
+                    android:text="   Macará"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView22" android:layout_weight="1"
+                    android:textSize="18sp" android:background="#EFF1F1" android:layout_marginTop="2dp"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:text="Aucas   "
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView16" android:layout_weight="1"
+                    android:textSize="18sp" android:gravity="right" android:background="#EFF1F1"
+                    android:layout_marginTop="2dp"/>
+            <TextView
+                    android:text="0 - 0"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" android:id="@+id/textView23" android:layout_weight="1"
+                    android:textSize="18sp" android:background="#E8EBEC" android:gravity="center"
+                    app:fontFamily="sans-serif-black" android:layout_marginTop="2dp"/>
+            <TextView
+                    android:text="   El Nacional"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView24" android:layout_weight="1"
+                    android:textSize="18sp" app:fontFamily="sans-serif-medium" android:background="#EFF1F1"
+                    android:layout_marginTop="2dp"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView
+                    android:text="Tecnico U.   "
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView9" android:layout_weight="1"
+                    android:textSize="18sp" android:gravity="right"
+                    android:background="#EFF1F1" android:layout_marginTop="2dp"/>
+            <TextView
+                    android:text="1 - 1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView25" android:layout_weight="1"
+                    android:textSize="18sp" android:background="#E8EBEC" android:gravity="center"
+                    app:fontFamily="sans-serif-black" android:layout_marginTop="2dp"/>
+            <TextView
+                    android:text="   Ind. del Valle"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView26" android:layout_weight="1"
+                    android:textSize="18sp" android:background="#EFF1F1" android:layout_marginTop="2dp"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView
+                    android:text="LDU Quito   "
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView10" android:layout_weight="1"
+                    android:textSize="18sp" android:gravity="right" app:fontFamily="sans-serif-medium"
+                    android:background="#EFF1F1" android:layout_marginTop="2dp"/>
+            <TextView
+                    android:text="1 - 5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView27" android:layout_weight="1"
+                    android:textSize="18sp" android:background="#E8EBEC" android:gravity="center"
+                    app:fontFamily="sans-serif-black" android:layout_marginTop="2dp"/>
+            <TextView
+                    android:text="   U. Católica"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView28" android:layout_weight="1"
+                    android:textSize="18sp" android:background="#EFF1F1" android:layout_marginTop="2dp"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView
+                    android:text="Fuerza A.   "
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView11" android:layout_weight="1"
+                    android:textSize="18sp" android:gravity="right" app:fontFamily="sans-serif-medium"
+                    android:background="#EFF1F1" android:layout_marginTop="2dp"/>
+            <TextView
+                    android:text="1 - 4"
+                    android:layout_width="0dp"
+                    android:layout_height="26dp" android:id="@+id/textView29" android:layout_weight="1"
+                    android:textSize="18sp" android:background="#E8EBEC" android:gravity="center"
+                    app:fontFamily="sans-serif-black" android:layout_marginTop="2dp"/>
+            <TextView
+                    android:text="   Emelec"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView31" android:layout_weight="1"
+                    android:textSize="18sp" android:background="#EFF1F1" android:layout_marginTop="2dp"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView
+                    android:text="   Dep. Cuenca   "
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView12" android:layout_weight="1"
+                    android:textSize="18sp" android:gravity="right" app:fontFamily="sans-serif-medium"
+                    android:background="#EFF1F1" android:layout_marginTop="2dp"/>
+            <TextView
+                    android:text="3 - 1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView30" android:layout_weight="1"
+                    android:textSize="18sp" android:background="#E8EBEC" android:gravity="center"
+                    app:fontFamily="sans-serif-black" android:layout_marginTop="2dp"/>
+            <TextView
+                    android:text="   Mushuc Runa"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView32" android:layout_weight="1"
+                    android:textSize="18sp" android:background="#EFF1F1" android:layout_marginTop="2dp"/>
+        </TableRow>
+    </TableLayout>
+
+</FrameLayout>
