@@ -91,7 +91,7 @@ public class Principal extends AppCompatActivity
         } else if (id == R.id.nav_slideshow) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new tablaPosiciones()).commit();
         } else if (id == R.id.nav_tools) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new perfil()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new home()).commit();
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
