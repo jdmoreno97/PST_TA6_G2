@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
              tools:context=".perfil">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/hello_blank_fragment"/>
-
+            android:layout_height="match_parent">
+        <TextView
+                android:text="VOTACIONES JUGADOR DE LA FECHA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView37" tools:layout_editor_absoluteY="143dp"
+                tools:layout_editor_absoluteX="86dp"/>
+        <TextView
+                android:text="ESCOGER LA FECHA "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView38" tools:layout_editor_absoluteY="201dp"
+                tools:layout_editor_absoluteX="139dp"/>
+        <TextView
+                android:text="ESCOGER JUGADOR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textView39" tools:layout_editor_absoluteY="445dp"
+                tools:layout_editor_absoluteX="139dp"/>
+        <Button
+                android:text="VOTAR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/button" tools:layout_editor_absoluteY="635dp"
+                tools:layout_editor_absoluteX="161dp"/>
+        <CheckBox
+                android:text="CheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" tools:layout_editor_absoluteY="286dp"
+                tools:layout_editor_absoluteX="153dp" android:id="@+id/checkBox"/>
+        <CheckBox
+                android:text="CheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" tools:layout_editor_absoluteY="376dp"
+                tools:layout_editor_absoluteX="29dp" android:id="@+id/checkBox2"/>
+        <CheckBox
+                android:text="CheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" tools:layout_editor_absoluteY="376dp"
+                tools:layout_editor_absoluteX="266dp" android:id="@+id/checkBox3"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
