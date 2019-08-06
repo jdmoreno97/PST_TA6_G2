@@ -1,6 +1,7 @@
 package com.example.pst_ta6_g2;
 
 import android.os.Bundle;
+import androidx.fragment.app.Fragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.annotation.NonNull;
@@ -9,6 +10,7 @@ import android.widget.TextView;
 
 public class Inicio extends AppCompatActivity {
     private TextView mTextMessage;
+    private Fragment selectedFragment=null;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -17,16 +19,17 @@ public class Inicio extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
-                    mTextMessage.setText(R.string.title_home);
-                    return true;
+                    selectedFragment=new fecha17();
+                    break;
                 case R.id.navigation_dashboard:
-                    mTextMessage.setText(R.string.title_dashboard);
-                    return true;
+                    selectedFragment=new fecha18();
+                    break;
                 case R.id.navigation_notifications:
-                    mTextMessage.setText(R.string.title_notifications);
-                    return true;
+                    selectedFragment=new fecha19();
+                    break;
             }
-            return false;
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,selectedFragment).commit();
+            return true;
         }
     };
 
@@ -37,6 +40,7 @@ public class Inicio extends AppCompatActivity {
         BottomNavigationView navView = findViewById(R.id.nav_view);
         mTextMessage = findViewById(R.id.message);
         navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new fecha17()).commit();
     }
 
 }
