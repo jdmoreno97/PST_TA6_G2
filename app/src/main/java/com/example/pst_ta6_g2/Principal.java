@@ -89,7 +89,7 @@ public class Principal extends AppCompatActivity
             Intent intent=new Intent(getApplicationContext(),Inicio.class);
             startActivity(intent);
         } else if (id == R.id.nav_slideshow) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new home()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new tablaPosiciones()).commit();
         } else if (id == R.id.nav_tools) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new home()).commit();
         } else if (id == R.id.nav_share) {
