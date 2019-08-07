@@ -8,7 +8,7 @@
         tools:context=".MainActivity">
 
     <ImageView
-            android:src="@drawable/fef"
+            android:src="@drawable/fede"
             android:layout_width="131dp"
             android:layout_height="153dp"
             android:id="@+id/imageView" android:contentDescription="@string/fef"

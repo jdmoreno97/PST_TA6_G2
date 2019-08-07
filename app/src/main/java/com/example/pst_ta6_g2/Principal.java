@@ -2,6 +2,8 @@ package com.example.pst_ta6_g2;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import android.view.View;
@@ -17,7 +19,7 @@ import android.view.Menu;
 
 public class Principal extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
+    private Spinner jugadores;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -92,6 +94,7 @@ public class Principal extends AppCompatActivity
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new tablaPosiciones()).commit();
         } else if (id == R.id.nav_tools) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new perfil()).commit();
+
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
